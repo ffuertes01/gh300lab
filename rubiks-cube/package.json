@@ -1,0 +1,12 @@
+{
+  "name": "rubiks-cube",
+  "version": "1.0.0",
+  "description": "3D Rubik's Cube Simulation",
+  "main": "scripts.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "devDependencies": {
+    "jest": "^27.0.0"
+  }
+}

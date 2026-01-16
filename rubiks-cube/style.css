@@ -1,0 +1,34 @@
+/* Basic body styling */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+}
+
+/* Container for the entire app */
+#container {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+}
+
+/* UI panel for buttons */
+#ui {
+    padding: 10px;
+    background-color: #fff;
+    border-bottom: 1px solid #ccc;
+}
+
+/* Button styling */
+button {
+    margin: 5px;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+/* Container for the 3D canvas */
+#canvas-container {
+    flex: 1;
+    position: relative;
+}
